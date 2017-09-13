@@ -16,5 +16,10 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void Hello_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello World");
+        }
     }
 }
