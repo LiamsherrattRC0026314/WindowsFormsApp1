@@ -19,7 +19,12 @@ namespace WindowsFormsApp1
 
         private void Hello_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello World");
+            
+        }
+
+        private void Txtbxname_TextChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello  " + Txtbxname.Text);
         }
     }
 }
